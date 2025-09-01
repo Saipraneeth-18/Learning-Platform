@@ -14,8 +14,4 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
-  customHeaders:
-    - pattern: '**/*'
-      headers:
-        - key: "Location"
-          value: "/index.html"
+
